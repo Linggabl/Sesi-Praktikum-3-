@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ini adalah komentar yang benar */
+}
+
+.container {
+  width: 90%;
+  max-width: 600px; /* Ini adalah komentar yang benar */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.custom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.custom-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 5px solid #1e90ff;
+}
+
+section {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 580px;
+}
+
+h1 {
+  color: #1e90ff;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.card-projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-projects li {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+.card-projects a,
+.card-contacts a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-projects a:hover,
+.card-contacts a:hover {
+  text-decoration: underline;
+}
+
+.container h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+input[type="text"],
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #007acc;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.italic {
+  font-style: italic;
+}

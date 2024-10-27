@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Prak Gabungan</title>
+  </head>
+  <body>
+    
+    <div class="custom">
+      <img
+        src="imgur.jpg"
+        alt="Photo Lingga"
+        class="custom-image"
+        width="300"
+      />
+    </div>
+
+    <section class="card-about">
+      <h1>About Me</h1>
+      <p>Nama saya Lingga Bangun Laksana</p>
+      <p>Mahasiswa Sistem Informasi semester 3</p>
+    </section>
+
+    <!-- Proyek -->
+    <section class="card-projects">
+      <h1>Projects</h1>
+      
+        <ul></ul><li>
+          <a href="https://www.instagram.com/linggabgnl" target="_blank"
+            >Instagram</a
+          >
+          - Account Pribadi
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@lksnabl" target="_blank">TikTok</a> -
+          Account Pribadi
+        </li> </ul>
+      
+    </section>
+
+    
+    <section class="card-contacts">
+      <h1>Contact</h1>
+      <p>Email: linggabl346@gmail.com</p>
+      <p>
+        LinkedIn:
+        <a
+          href="https://www.linkedin.com/in/lingga-bangun-laksana-39b777323/"
+          target="_blank"
+          >LinkedIn Profile</a
+        >
+      </p>
+    </section>
+
+    
+    <div class="container">
+      <h2>Dynamic Page Example</h2>
+      <label>Change Background Color:</label>
+      <select id="bgcolor">
+        <option value="">White</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+
+      <div>
+        <button onclick="changeFontSize(2)">Increase Font Size</button>
+        <button onclick="changeFontSize(-2)">Decrease Font Size</button>
+        <button onclick="toggleClass('dark')">Toggle Dark Mode</button>
+        <button onclick="toggleClass('italic')">Toggle Font Style</button>
+      </div>
+
+      <hr />
+
+      <h2>My To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Add a new task" />
+      <button id="addTask">Add</button>
+      <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
